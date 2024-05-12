@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.money-details-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.money-details-item-container {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-radius: 0.8rem;
+  flex-grow: 1;
+}
+
+.balance-amount-container {
+  border: 0.1rem solid #84cc16;
+  background-color: #ecfccb;
+}
+
+.income-amount-container {
+  border: 0.1rem solid #06b6d4;
+  background-color: #cffafe;
+}
+
+.expenses-amount-container {
+  border: 0.1rem solid #7c3aed;
+  background-color: #ede9fe;
+  margin-bottom: 0;
+}
+
+.money-details-img {
+  height: 6rem;
+  width: 6rem;
+  margin-right: 2rem;
+}
+
+.money-details-data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.money-detail-text,
+.amount-text {
+  color: #475569;
+}
+
+.money-detail-text {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.amount-text {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    margin-bottom: 1rem;
+  }
+
+  .money-details-item-container {
+    width: 30%;
+    justify-content: center;
+    padding: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .money-details-img {
+    height: 7rem;
+    width: 7rem;
+    margin-right: 3rem;
+  }
+
+  .expenses-amount-container {
+    margin-right: 0;
+  }
+
+  .money-detail-text {
+    font-size: 1.1rem;
+  }
+
+  .amount-text {
+    font-size: 1.5rem;
+  }
+}

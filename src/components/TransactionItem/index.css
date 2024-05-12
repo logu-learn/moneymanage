@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.transaction-item-container {
+  border: 0.1rem solid #cbd5e1;
+  border-top: none;
+  padding: 0.25rem 0.7rem;
+  margin-top: -1px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  flex-grow: 1;
+}
+
+.transaction-title {
+  /* margin-right: 2vw; */
+  width: 10vw;
+  /* flex-grow: 2; */
+}
+
+.transaction-detail {
+  width: 10vw;
+  /* margin-left: 3vw; */
+  /* flex-grow: 1; */
+}
+
+.transaction-title,
+.transaction-detail {
+  color: #334155;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.transaction-delete-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: inherit;
+  margin-left: 1rem;
+  /* margin-right: 1rem; */
+}
+
+.delete-icon-img {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .transaction-item-container {
+    border: 0.1rem solid #cbd5e1;
+    border-top: none;
+    padding: 0.5rem 1rem;
+    margin-top: -1px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    flex-grow: 1;
+  }
+
+  .transaction-title {
+    /* margin-right: 2vw; */
+    width: 8vw;
+    /* flex-grow: 2; */
+  }
+
+  .transaction-detail {
+    width: 3vw;
+    /* margin-left: 3vw; */
+    /* flex-grow: 1; */
+  }
+
+  .transaction-title,
+  .transaction-detail {
+    color: #334155;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .transaction-delete-button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: inherit;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .delete-icon-img {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
